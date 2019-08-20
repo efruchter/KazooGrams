@@ -101,7 +101,7 @@ namespace KazooGrams
             output.Add(start.Item1);
             output.Add(start.Item2);
 
-            for (int i = 2; i < 40; i++)
+            for (int i = 2; i < 400; i++)
             {
                 var key = (output[i-2], output[i-1]);
                 output.Add(sample(key));
